@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+input:focus{
+    outline: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 60px;
+}
+h2{
+    font-size: 32px;
+    color: #121212;
+
+}
+h3{
+    font-size: 24px;
+    color: #121212;
+}
+p{
+    font-size: 14px;
+    color: #707070;
+    line-height: 25px;
+}
+.para_margin{
+    margin: 24px 0;
+}
+#hero_h{
+    color: white !important;
+}
+#hero_p{
+    color: #e6e1e1;
+    margin: 24px;
+}
+
+#footer_h{
+    font-family: 'Lobster', cursive;
+}
+small{
+    font-family: 'Manrope', sans-serif;
+    color: #707070;
+}
+.m_auto{
+    margin: 0 auto;
+}
+.text_center{
+    text-align: center;
+}
+.d_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero{
+    min-height: 550px;
+    background: linear-gradient(360deg, #121212 0%, rgba(18,18,18,0)100%), url(./Images/donation.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.donate_now {
+    background: #FF5959;
+    padding: 13px 25px 13px 25px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.donate_now a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Inter';
+}
+.donat_today{
+    padding: 90px 0;
+}
+
+.amount {
+    background: #fafafa;
+    color: #707070;
+    border: none;
+    outline: none;
+    padding: 35px 30px;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.amount:hover{
+    color: #FF5959;
+    background: #ffeeee;
+    border: 1px solid #FF5959;
+}
+.active{
+    color: #FF5959;
+    background: #ffeeee;
+    border: 1px solid #FF5959;
+}
+#other_amount_div {
+    margin: 30px;
+}
+.other_amount {
+    display: block;
+    text-align: center;
+    width: 693px;
+    margin: auto;
+    border: none;
+    border-bottom: 1px solid #dadada;
+    padding: 10px;
+}
+#other_amount_button{
+    margin-top: 12px;
+    
+}
+
+.donation_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donation_items {
+    width: 28%;
+    padding: 30px 26px;
+    margin: 2%;
+}
+.donation_items img{
+    width: 45px;
+    height: auto;
+}
+.donation_h{
+    margin: 14px 0;
+}
+
+#donation_box_1 {
+    background: #4f9da629;
+    border-radius: 5px;
+}
+#donation_box_2 {
+    background: #ffeeee;
+    border-radius: 5px;
+}
+#donation_box_3 {
+    background: #fff4d6;
+    border-radius: 5px;
+}
+
+.contribution_div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 90px 40px;
+}
+#contribution_1{
+    width: 50%;
+}
+#contribution_text_1 {
+    width: 44%;
+    padding-right: 70px;
+}
+
+#contribution_1 img{
+    width: 380px;
+    border-radius: 5px;
+}
+#contribution_2{
+    width: 50%;
+}
+
+#contribution_2 img{
+    width: 388px;
+}
+#contribution_text_2 {
+    width: 47%;
+    padding-left: 77px;
+}
+.contribution_2 {
+    padding-left: 100px;
+}
+.subscribe{
+    background: #fff4d6;
+    padding: 60px;
+    width: 70%;
+    margin: auto;
+}
+.subscribe input {
+    padding: 12px;
+    border: none;
+    margin-right: -5px;
+    width: 331px;
+    border-radius: 2px 0px 0px 2px;
+    background: #d9d9d9;
+    -webkit-border-radius: 2px 0px 0px 2px;
+    -moz-border-radius: 2px 0px 0px 2px;
+    -ms-border-radius: 2px 0px 0px 2px;
+    -o-border-radius: 2px 0px 0px 2px;
+}
+.subscribe button{
+    padding: 12px 36px;
+    background: #FF5959;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 0px 2px 2px 0px;
+    -webkit-border-radius: 0px 2px 2px 0px;
+    -moz-border-radius: 0px 2px 2px 0px;
+    -ms-border-radius: 0px 2px 2px 0px;
+    -o-border-radius: 0px 2px 2px 0px;
+}
+
+footer{
+    margin-top: 90px;
+    background: #0b0d17;
+    padding: 45px;
+    text-align: center;
+}
+
+#footer_h{
+    color: #FF5959;
+}
+
+footer small{
+    color: white;
+}
